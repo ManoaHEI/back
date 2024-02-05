@@ -1,5 +1,7 @@
 package org.app.fitness_app.Repository;
 
-public interface UserInterface {
+import org.app.fitness_app.Model.User;
 
+public interface UserInterface {
+    public User CreateUser();
 }
